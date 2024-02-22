@@ -1,0 +1,101 @@
+#navbar {
+    background-color: transparent;
+    height: 62px;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#main {
+    position: relative;
+    top: -62px;
+}
+
+#main section h2 {
+    padding-bottom: 1.5rem;
+    color: #082a4d;
+    font-weight: bold;
+}
+
+#main section {
+    padding-top:4rem;
+    padding-bottom: 4rem;
+}
+
+#hero-container {
+    padding: 0;
+    margin: 0;
+}
+
+#hero-inner {
+    min-height: 500px;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /*background: linear-gradient(190deg, rgba(8, 42, 77, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+    margin-bottom: 150px;
+}
+
+#hero-box {
+    position: relative;
+    bottom: -150px;
+    background-color: white;
+}
+
+#hero-container #hero-portrait {
+    max-height: 400px;
+}
+
+#legal {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
+
+.we-item .item-date {
+    background-image: linear-gradient(#adb5bd, #adb5bd);
+    background-size: 2px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.we-item:last-child .item-date {
+    background: none;
+}
+
+.we-item .date-box {
+    background-color: #adb5bd;
+}
+
+.we-item .item-title,
+.we-item .item-desc {
+    max-width: 600px;
+}
+
+.we-item:not(:last-child) .item-desc {
+    padding-bottom: 2rem;
+}
+
+.skill-item {
+    margin-bottom: 1.5rem;
+}
+
+
+/* BS overwrite */
+.progress,
+.progress-stacked {
+    border-radius: 0;
+}
+
+#skills .progress-bar {
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#skills .nav-link {
+    color: var(--bs-body-color);
+}
+
+#skills .nav-link.active {
+    color: #082a4d;
+    font-weight: bold;
+}
