@@ -76,34 +76,28 @@
 }
 
 
-#legal {
-    margin-top: auto;
-    margin-bottom: 0;
-}
-
-
-
-.we-item .item-date {
+/* Timeline */
+.timeline-item .item-date {
     background-image: linear-gradient(#adb5bd, #adb5bd);
     background-size: 2px 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.we-item:last-child .item-date {
+.timeline-item:last-child .item-date {
     background: none;
 }
 
-.we-item .date-box {
+.timeline-item .date-box {
     background-color: #adb5bd;
 }
 
-.we-item .item-title,
-.we-item .item-desc {
+.timeline-item .item-title,
+.timeline-item .item-desc {
     max-width: 600px;
 }
 
-.we-item:not(:last-child) .item-desc {
+.timeline-item:not(:last-child) .item-desc {
     padding-bottom: 2rem;
 }
 
@@ -112,7 +106,7 @@
 }
 
 
-/* BS overwrite */
+/* Skills */
 .progress,
 .progress-stacked {
     border-radius: 0;
