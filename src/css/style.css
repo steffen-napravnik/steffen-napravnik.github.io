@@ -90,6 +90,9 @@
 
 .timeline-item .date-box {
     background-color: #adb5bd;
+    min-width: 104px;
+    text-align: center;
+
 }
 
 .timeline-item .item-title,
