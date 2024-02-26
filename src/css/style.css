@@ -127,8 +127,8 @@
 }
 
 #skills .nav-link.active {
-    color: #082a4d;
-    font-weight: bold;
+    color: #fff;
+    background-color: #082a4d;;
 }
 
 
