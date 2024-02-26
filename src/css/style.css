@@ -1,12 +1,37 @@
+/* Header & Nav */
 #navbar {
-    background-color: transparent;
-    height: 62px;
+    background-color: black;
 }
 
 #navbar .nav-link {
     color: white;
 }
 
+#navbar.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: white;
+}
+
+@media (min-width: 768px) {
+    #navbar {
+        background-color: transparent;
+        height: 62px;
+    }
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+/* Main content area */
 #main {
     position: relative;
     top: -62px;
@@ -23,6 +48,8 @@
     padding-bottom: 4rem;
 }
 
+
+/* Hero block */
 #hero-container {
     padding: 0;
     margin: 0;
@@ -31,19 +58,23 @@
 #hero-inner {
     min-height: 500px;
     background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    /*background: linear-gradient(190deg, rgba(8, 42, 77, 1) 35%, rgba(0, 212, 255, 1) 100%); */
     margin-bottom: 150px;
 }
 
 #hero-box {
     position: relative;
-    bottom: -150px;
     background-color: white;
+    bottom: -80px;
 }
 
-#hero-container #hero-portrait {
-    max-height: 400px;
+@media (min-width: 768px) {
+    #hero-box {
+        position: relative;
+        bottom: -120px;
+        background-color: white;
+    }
 }
+
 
 #legal {
     margin-top: auto;

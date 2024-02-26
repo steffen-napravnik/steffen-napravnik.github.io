@@ -18,7 +18,7 @@
 
     <header id="header" class="sticky-top">
 
-        <nav id="navbar" class="navbar navbar-expand-lg">
+        <nav id="navbar" class="navbar navbar-expand-md">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <span class="fs-4 fw-bold text-white">Steffen Napravnik</span>
@@ -43,10 +43,15 @@
     <main id="main">
         <div id="hero-container" class="container-fluid">
 
-            <div id="hero-inner" class="d-flex align-items-center">
+            <div id="hero-inner" class="d-flex align-items-center p-3 p-sm-0">
                 <div id="hero-box" class="container shadow-lg">
-                    <div class="row p-5">
-                        <div class="col col-8">
+                    <div class="row p-0 py-3 p-sm-4 p-md-5">
+
+                        <div class="col-12 col-lg-4 order-lg-2">
+                            <img id="hero-portrait" class="img-fluid mb-4" src="./src/img/Portrait.jpg" alt="Portrait of Steffen Napravnik" />
+                        </div>
+
+                        <div class="col-12 col-lg-8 order-lg-1">
                             <div class="fs-5">Hello Everybody, I am</div>
                             <h1 class="fw-bold mb-0" style="color: #082a4d;">Steffen Napravnik</h1>
                             <div class="fs-3 fw-bold mb-4">Developer and Project Manager</div>
@@ -59,14 +64,12 @@
                                 <h2 class="fs-5 fw-bold mb-0">Check my social profiles</h2>
                                 <ul class="nav list-unstyled d-flex fs-2">
                                     <li><a class="text-muted" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-xing"></i></a></li>
-                                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-github"></i></a></li>
+                                    <li class="ms-2"><a class="text-muted" href="#"><i class="fa-brands fa-square-xing"></i></a></li>
+                                    <li class="ms-2"><a class="text-muted" href="#"><i class="fa-brands fa-square-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col col-4 d-flex justify-content-end">
-                            <img id="hero-portrait" class="img-fluid" src="./src/img/Portrait.jpg" alt="Portrait of Steffen Napravnik" />
-                        </div>
+
                     </div>
                 </div>
             </div>
