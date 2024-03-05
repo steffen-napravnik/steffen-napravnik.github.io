@@ -128,7 +128,13 @@
 
 #skills .nav-link.active {
     color: #fff;
-    background-color: #082a4d;;
+    background-color: #082a4d;
+    ;
+}
+
+a[data-bs-toggle="popover"],
+.fa-circle-info {
+    color: #082a4d;
 }
 
 

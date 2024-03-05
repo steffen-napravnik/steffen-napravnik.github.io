@@ -1,3 +1,4 @@
+// Main navigation background change
 function scrollNavBar() {
     var navbar = document.getElementById('navbar');
     var scroll = window.scrollY;
@@ -7,5 +8,9 @@ function scrollNavBar() {
         navbar.classList.add('bg-black');
     }
 }
-
 window.addEventListener('scroll', scrollNavBar);
+
+
+// Skills popover initialize
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
